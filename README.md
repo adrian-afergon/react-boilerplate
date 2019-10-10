@@ -22,6 +22,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Create a new functional component in the specified path, inside a directory with the specified component name.<br />
 You can add the arguments `--name` and `--path` to not use the interactive cli.
 
+### `npm run storybook`
+
+Run storybook to display all the .stories.tsx.<br />
+Open [http://localhost:9001](http://localhost:9001) to view it in the browser.
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
