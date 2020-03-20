@@ -17,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:e2e": "npm run cy:open --prefix ./e2e",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "new-fc": "node_modules/.bin/hygen fc new"
