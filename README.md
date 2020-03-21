@@ -17,10 +17,15 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run new-fc`
+### `npm run new:fc`
 
 Create a new functional component in the specified path, inside a directory with the specified component name.<br />
-You can add the arguments `--name` and `--path` to not use the interactive cli.
+You can add the arguments `name` and `path` to not use the interactive cli.
+
+### `npm run new:hook`
+
+Create a new hook abstraction inside `hooks` directory with the specified hook name.<br />
+**Remember** to use the prefix `use`.
 
 ### `npm run storybook`
 

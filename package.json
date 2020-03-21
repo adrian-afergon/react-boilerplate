@@ -20,7 +20,8 @@
     "test:e2e": "npm run cy:open --prefix ./e2e",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "new-fc": "node_modules/.bin/hygen fc new"
+    "new:fc": "node_modules/.bin/hygen fc new",
+    "new:hook": "node_modules/.bin/hygen hook new"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,12 +43,14 @@
     "@storybook/addon-knobs": "^5.3.17",
     "@storybook/react": "^5.3.17",
     "@testing-library/react": "^10.0.1",
+    "@testing-library/react-hooks": "^3.2.1",
     "awesome-typescript-loader": "^5.2.1",
     "hygen": "^5.0.3",
     "prettier": "^1.19.1",
     "puppeteer": "^2.1.1",
     "react-docgen-typescript-loader": "^3.7.1",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "react-test-renderer": "^16.13.1",
     "tslint": "^6.1.0"
   }
 }
