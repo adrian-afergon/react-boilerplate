@@ -47,7 +47,6 @@
     "awesome-typescript-loader": "^5.2.1",
     "hygen": "^5.0.3",
     "prettier": "^1.19.1",
-    "puppeteer": "^2.1.1",
     "react-docgen-typescript-loader": "^3.7.1",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
     "react-test-renderer": "^16.13.1",
