@@ -1,11 +1,18 @@
 ---
 to: src/<%= path %>/<%= name %>/<%= name %>.stories.tsx
 ---
-import { storiesOf } from '@storybook/react';
 import * as React from 'react';
+import { text, withKnobs } from '@storybook/addon-knobs';
 import {<%= name %>} from './<%= name %>';
 
-storiesOf('<%= name %>', module)
-  .add('with text', () => (
-  <<%= name %> />
-));
+export default {
+  title: '<%= name %>',
+  decorators: [withKnobs],
+};
+
+export const withMessage = () => {
+  const value = text('Text value', 'Hello from <%= name %>!!');
+  return (
+    <<%= name %>>{value}</<%= name %>>
+  );
+};
