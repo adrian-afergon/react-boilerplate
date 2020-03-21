@@ -15,4 +15,3 @@ stories.add('with message', () => {
       <<%= name %>>{value}</<%= name %>>
   );
 });
-
