@@ -3,6 +3,7 @@ module.exports = {
         '@storybook/addon-actions/register',
         '@storybook/addon-knobs/register',
         '@storybook/addon-a11y/register',
+        'storybook-dark-mode/register'
     ],
     stories: ['../src/**/*.stories.tsx'],
     webpackFinal: async (config) => {

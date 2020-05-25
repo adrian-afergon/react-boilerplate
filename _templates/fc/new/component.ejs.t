@@ -9,5 +9,3 @@ export const <%= name %>: React.FC<{}> = () => (
     Hello from <%= name %>!
   </div>
 );
-
-<%= name %>.displayName = '<%= name %>';
